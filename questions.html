@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Web Oyesters - Online Quiz</title>
+        <link rel="stylesheet" href="css/style.css" />
+    </head>
+    <body>
+        <div class="box" id= "queationscreen">
+            <div class=title>
+                Oyesters Quiz
+            </div>
+            <div class="header">
+                <div>
+                    <div class="scorebox">Score : 0</div>
+                    <div class="timerbox">Time Left : <p id="timerCount"></p></div>
+                </div>
+            </div>
+            <div class="mainContainer">
+                <div class="question1">
+                     <span class="questionbox">
+                        What does HTML stand for?
+                     </span>
+                     <span class="optionbox">
+                          <span onclick="checkAnswer(1)" class='one1'>Hyper Tag Markup Language</span>
+                          <span onclick="checkAnswer(2)" class='two1'>Hyper Text Markup Language</span>
+                          <span onclick="checkAnswer(3)" class='three1'>Hyperlinks Text Mark Language</span>
+                          <span onclick="checkAnswer(4)"class='four1'>Hyperlinking Text Marking Language</span>
+                     </span>
+                </div>
+                <div class="question2">
+                      <span class="questionbox">
+                      What does CSS stand for?
+                      </span>
+                      <span class="optionbox">
+                          <span onclick="checkAnswer1(1)"class='one2'>Computing Style Sheet</span>
+                          <span onclick="checkAnswer1(2)"class='two2'>Creative Style System</span>
+                          <span onclick="checkAnswer1(3)"class='three2'>Cascading Style Sheet</span>
+                          <span onclick="checkAnswer1(4)"class='four2'>Creative Styling Sheet</span>
+                      </span>
+                </div>
+                <div class="question3">
+                     <span class="questionbox">
+                       Where should a CSS file be referenced in a HTML file?
+                     </span>
+                    <span class="optionbox">
+                        <span onclick="checkAnswer2(1)"class='one3'>Before any HTML code</span>
+                        <span onclick="checkAnswer2(2)"class='two3'>After all HTML code</span>
+                        <span onclick="checkAnswer2(3)"class='three3'>Inside the head section</span>
+                        <span onclick="checkAnswer2(4)"class='four3'>Inside the body section</span>
+                    </span>
+                </div>
+                <div class="question4 lastdiv">
+                    <span class="questionbox">
+                      Which is the correct CSS syntax
+                    </span>
+                    <span class="optionbox">
+                        <span onclick="checkAnswer3(1)"class='one4'>Body {color: black}</span>
+                        <span onclick="checkAnswer3(2)"class='two4'>Body>{body;color:black}</span>
+                        <span onclick="checkAnswer3(3)"class='three4'>{body:color=black(body}</span>
+                        <span onclick="checkAnswer3(4)"class='four4'>body:color=black</span>
+                    </span>
+                </div>
+            </div>
+            <div class="footer">
+                <button class="btn btnPre"onclick="prev()" id="prev">
+                  Previous
+                </botton>
+                <button class="btn btnnext"onclick="next()" id="next"> 
+                  Next
+                </button>
+                <a href="final.html" class="btn btnfinal"style="display: none"; id="finish">
+                 Finish
+                </a>
+            </div>
+        </div>
+    </body>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/script.js"></script>
+</html>

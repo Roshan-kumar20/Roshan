@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,400;1,700&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+body {
+	font-family: 'Lato', sans-serif;
+	background-image: url("../img/ezgif.com-gif-maker.gif");
+	height: 100%; 
+  /* Center and scale the image nicely */
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+}
+.selected{
+	background-color: darkseagreen !important;
+}
+.container{
+	width: 940px;
+	background-color: #fff;
+	box-shadow: 0 0 50px 0 ;
+	min-height: 350px;
+	padding: 80px 90px;
+	border-radius: 15px;
+	display: flex;
+}
+
+.leftside , 
+.rightside{
+width: 80%;
+}
+.leftside img{
+	height: 200px;
+	width: 350px;
+}
+
+.rightside h1{
+	color: #1da3dd;
+	font-size: 32px;
+}
+
+.rightside h2{
+	color: #4;
+	margin: 20px auto:10px;
+	font-size: 20px
+}
+
+.rightside u1{
+	color: #444;
+	margin: 20px auto:10px;
+	font-size: 19px;
+	margin-top: 10px;
+	font-weight: 600;
+	list-style-type: circle;
+	list-style-position: inside;
+}
+
+.rightside a{
+background-color: #1da3dd;
+border-radius: 100px;
+color: efff;
+font-weight: 600;
+width: 100%;
+display: inline-block;
+text-align: center;
+padding: 15px 0;
+margin-top: 25px;
+}
+
+/* question paper css starts */
+.box {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 50px 0 rgba(0, 0, 0, 0.2);
+	min-height: 350;
+	width: 640px;
+	padding: 40px;
+
+}
+
+.title{
+	border-bottom: 1px solid #464646;
+	color: #464646;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	font-weight: 600;
+	font-size: 24px;
+}
+
+.header{
+	margin-bottom: 30px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.scorebox, .timerbox{
+	border-radius: 100px;
+	padding: 10px 15px;
+	border: 1px solid #444;
+	color: #444;
+}
+.scorebox{
+	float:left;
+}
+.timerbox{
+	float:right;
+	margin-left: 300px;
+}
+#timerCount{
+	float: inherit;
+}
+
+.questionbox{
+	background-color: #594a76;
+	color: #fff;
+	border-radius: 10px;
+	padding: 10px 15px;
+}
+
+.optionbox {
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-gap: 15px;
+margin: 40px 0;
+
+}
+
+.optionbox span{
+	 background-color: #ccc;
+	 border-radius: 10px;
+	 color: #444;
+	 border: 1px solid #4444;
+	 padding: 10px 15px;
+}
+
+.footer{
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer button{
+	background-color: #1da3dd;
+	border-radius: 5px;
+	padding: 7px 15px;
+	color: #fff;
+	border: 0;
+	outline: name;
+	font-size: 20px;
+}
+.btnfinal{
+	background-color: #1da3dd;
+	border-radius: 5px;
+	padding: 7px 15px;
+	color: #fff;
+	border: 0;
+	outline: name;
+	font-size: 20px;
+	text-decoration: none;
+
+}
+/* question paper css Ends */
